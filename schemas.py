@@ -13,6 +13,7 @@ class Book(BaseModel):
 
 
 class Employee(BaseModel):
+    id: int
     first_name: str
     last_name: str
     date_joined: datetime.date
